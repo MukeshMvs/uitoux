@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tmart-Minimalist eCommerce HTML5 Template</title>
+    <title>UItoUX</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -11,23 +11,29 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
-
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
     <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Owl Carousel main css -->
+         <!-- Owl Carousel main css -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- This core.css file contents all plugings css file. -->
     <link rel="stylesheet" href="css/core.css">
     <!-- Theme shortcodes/elements style -->
     <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/niceselect.css">
     <!-- Theme main style -->
     <link rel="stylesheet" href="style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- User style -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom.css"> 
+    <!-- User style -->
+    <link rel="stylesheet" href="css/font-awesome.css">
 
 
     <!-- Modernizr JS -->
@@ -35,296 +41,296 @@
 </head>
 
 <body>
+
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+        <!-- End Preloader -->
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->  
 
-    <!-- Body main wrapper start -->
-    <div class="wrapper fixed__footer">
-        <!-- Start Header Style -->
-        <header id="header" class="htc-header header--3 bg__white">
-            <!-- Start Mainmenu Area -->
-            <div id="sticky-header-with-topbar" class="mainmenu__area sticky__header">
+        <!-- Header -->
+        <header class="header shop">
+            <!-- Topbar -->
+            <div class="topbar" style="align-items: center;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="images/logo/logo.png" alt="logo">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Start MAinmenu Ares -->
-                        <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
-                            <nav class="mainmenu__nav hidden-xs hidden-sm">
-                                <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a></li>
-                                    <li class="drop"><a href="portfolio-card-box-2.html">portfolio</a>
-                                        <ul class="dropdown">
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="drop"><a href="blog.html">Blog</a>
-                                        <ul class="dropdown">
-                                            <li><a href="blog.html">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="drop"><a href="shop.html">Shop</a>
-                                        <ul class="dropdown mega_dropdown">
-                                            <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">shop layout</a>
-                                                <ul class="mega__item">
-                                                    <li><a href="shop.html">default shop</a></li>
-                                                </ul>
-                                            </li>
-                                            <!-- End Single Mega MEnu -->
-                                            <!-- Start Single Mega MEnu -->
-                                            <li><a class="mega__title" href="shop.html">product details layout</a>
-                                                <ul class="mega__item">
-                                                    <li><a href="product-details.html">tab style 1</a></li></li>
-                                                </ul>
-                                            </li>
-                                            <!-- End Single Mega MEnu -->
-                                            <!-- Start Single Mega MEnu -->
-                                            <li>
-                                                <ul class="mega__item">
-                                                    <li>
-                                                        <div class="mega-item-img">
-                                                            <a href="shop.html">
-                                                                <img src="images/feature-img/3.png" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <!-- End Single Mega MEnu -->
-                                        </ul>
-                                    </li>
-                                    <li class="drop"><a href="#">pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="about.html">about</a></li>
-                                            <li><a href="#">testimonials <span><i class="zmdi zmdi-chevron-right"></i></span></a>
-                                                <ul class="lavel-dropdown">
-                                                    <li><a href="customer-review.html">customer review</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="shop.html">shop</a></li>
-                                            <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="team.html">team</a></li>
-                                            <li><a href="login-register.html">login & register</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">contact</a></li>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <!-- Top Left -->
+                            <div class="top-left">
+                                <ul class="list-main">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Store Location<</a></li>
+                                    <li><a href="#">Track Order</a></li>
+                                    <li><a href="#">Blog</a></li>
                                 </ul>
-                            </nav>
-                            <div class="mobile-menu clearfix visible-xs visible-sm">
-                                <nav id="mobile_dropdown">
-                                    <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="#">portfolio</a>
-                                            <ul>
-                                                <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                                <li><a href="single-portfolio.html">Single portfolio</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="blog.html">blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">blog 3 column</a></li>
-                                                <li><a href="blog-details.html">Blog details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages</a>
-                                            <ul>
-                                                <li><a href="about.html">about</a></li>
-                                                <li><a href="customer-review.html">customer review</a></li>
-                                                <li><a href="shop.html">shop</a></li>
-                                                <li><a href="shop-sidebar.html">shop sidebar</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="team.html">team</a></li>
-                                                <li><a href="login-register.html">login & register</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>                         
+                            </div>
+                            <!--/ End Top Left -->
                         </div>
-                        <!-- End MAinmenu Ares -->
-                        <div class="col-md-2 col-sm-4 col-xs-3">  
-                            <ul class="menu-extra">
-                                <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login-register.html"><span class="ti-user"></span></a></li>
-                                <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
-                                <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
-                            </ul>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <!-- Top Right -->
+                            <div class="right-content">
+                                <ul class="list-main">
+                                    <li class="dropdown dropdown-small">
+                                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">compare :</span><span class="value">2 </span><b class="caret"></b></a>
+                                    </li>
+                                    <li class="dropdown dropdown-small">
+                                        <select class="form-control" id="curr">
+                                            <option  value="usd" selected>Select currency</option>
+                                            <option value="usd" >USD</option>
+                                            <option value="eur">EUR</option>
+                                          </select>
+                                        </select>
+                                    </li>
+
+                                    <li class="dropdown dropdown-small">
+                                        <div id="google_translate_element"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Top Right -->
                         </div>
                     </div>
-                    <div class="mobile-menu-area"></div>
                 </div>
             </div>
-            <!-- End Mainmenu Area -->
-        </header>
-        <!-- End Header Style -->
-        <div class="body__overlay"></div>
-        <!-- Start Offset Wrapper -->
-        <div class="offset__wrapper">
-            <!-- Start Search Popap -->
-            <div class="search__area">
-                <div class="container" >
-                    <div class="row" >
-                        <div class="col-md-12" >
-                            <div class="search__inner">
-                                <form action="#" method="get">
-                                    <input placeholder="Search here... " type="text">
-                                    <button type="submit"></button>
-                                </form>
-                                <div class="search__close__btn">
-                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+            <!-- End Topbar -->
+            <div class="middle-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                            </div>
+                            <!--/ End Logo -->
+                            <!-- Search Form -->
+                            <div class="search-top">
+                                <div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
+                                <!-- Search Form -->
+                                <div class="search-top">
+                                    <form class="search-form">
+                                        <input type="text" placeholder="Search here..." name="search">
+                                        <button value="search" type="submit"><i class="ti-search"></i></button>
+                                    </form>
+                                </div>
+                                <!--/ End Search Form -->
+                            </div>
+                            <!--/ End Search Form -->
+                            <div class="mobile-nav"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="search-bar-top">
+                                <div class="search-bar">
+                                    <select class="vechicle-cls">
+                                        <option selected="selected">Select Vehicle</option>
+                                        <option>car</option>
+                                        <option>bike</option>
+                                        <option>scooter</option>
+                                    </select>
+                                    <form>
+                                        <input name="search" placeholder="Enter Keyword or part number" type="search">
+                                        <button class="btnn"><i class="ti-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <div class="right-bar">
+                                <!-- Search Form -->
+                                <div class="sinlge-bar wishlist">
+                                    <a href="#" class="single-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                                            <path d="M23,4c3.9,0,7,3.1,7,7c0,6.3-11.4,15.9-14,16.9C13.4,26.9,2,17.3,2,11c0-3.9,3.1-7,7-7c2.1,0,4.1,1,5.4,2.6l1.6,2l1.6-2
+                                                C18.9,5,20.9,4,23,4 M23,2c-2.8,0-5.4,1.3-7,3.4C14.4,3.3,11.8,2,9,2c-5,0-9,4-9,9c0,8,14,19,16,19s16-11,16-19C32,6,28,2,23,2L23,2
+                                                z"/>
+                                        </svg><span class="total-count">2</span>
+                                    </a>
+                                </div>
+                                <div class="sinlge-bar">
+                                    <a href="#" class="single-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                                        <path d="M16,18C9.4,18,4,23.4,4,30H2c0-6.2,4-11.5,9.6-13.3C9.4,15.3,8,12.8,8,10c0-4.4,3.6-8,8-8s8,3.6,8,8c0,2.8-1.5,5.3-3.6,6.7
+                                            C26,18.5,30,23.8,30,30h-2C28,23.4,22.6,18,16,18z M22,10c0-3.3-2.7-6-6-6s-6,2.7-6,6s2.7,6,6,6S22,13.3,22,10z"/>      
+                                        </svg>
+                                        <span class="log">Hello, login</span><span class="acc">My account</span>
+                                    </a>
+                                </div>
+                                <div class="sinlge-bar shopping">
+                                    <a href="#" class="single-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                                            <circle cx="10.5" cy="27.5" r="2.5"/>
+                                            <circle cx="23.5" cy="27.5" r="2.5"/>
+                                            <path d="M26.4,21H11.2C10,21,9,20.2,8.8,19.1L5.4,4.8C5.3,4.3,4.9,4,4.4,4H1C0.4,4,0,3.6,0,3s0.4-1,1-1h3.4C5.8,2,7,3,7.3,4.3
+                                            l3.4,14.3c0.1,0.2,0.3,0.4,0.5,0.4h15.2c0.2,0,0.4-0.1,0.5-0.4l3.1-10c0.1-0.2,0-0.4-0.1-0.4C29.8,8.1,29.7,8,29.5,8H14
+                                            c-0.6,0-1-0.4-1-1s0.4-1,1-1h15.5c0.8,0,1.5,0.4,2,1c0.5,0.6,0.6,1.5,0.4,2.2l-3.1,10C28.5,20.3,27.5,21,26.4,21z"/>
+                                        </svg>
+
+                                        <span class="total-count">2</span>
+                                        
+
+                                    </a>
+                                    <span class="cart-text">Shopping cart</span><span class="amt" data-usd="1,500" data-eur="1.271">$1468.00</span>
+                                    <!-- Shopping -->
+                                    <div class="shopping-item">
+                                        <div class="dropdown-cart-header">
+                                            <span>2s</span>
+                                            <a href="#">View Cart</a>
+                                        </div>
+                                        <ul class="shopping-list">
+                                            <li>
+                                                <a href="#" class="remove" title="Remove this"><i class="fa fa-remove"></i></a>
+                                                <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+                                                <h4><a href="#">Woman Ring</a></h4>
+                                                <p class="quantity">1x - <span class="amt" data-usd="99" data-eur="9.271">$99.00</span></p>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="remove" title="Remove this"><i class="fa fa-remove"></i></a>
+                                                <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+                                                <h4><a href="#">Woman Necklace</a></h4>
+                                                <p class="quantity">1x - <span class="amt" data-usd="35" data-eur="3.271">$35.00</span></p>
+                                            </li>
+                                        </ul>
+                                        <div class="bottom">
+                                            <div class="total">
+                                                <span>Total</span>
+                                                <span class="total-amount">$134.00</span>
+                                            </div>
+                                            <a href="checkout.html" class="btn animate">Checkout</a>
+                                        </div>
+                                    </div>
+                                    <!--/ End Shopping -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End Search Popap -->
-            <!-- Start Offset MEnu -->
-            <div class="offsetmenu">
-                <div class="offsetmenu__inner">
-                    <div class="offsetmenu__close__btn">
-                        <a href="#"><i class="zmdi zmdi-close"></i></a>
-                    </div>
-                    <div class="off__contact">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="images/logo/logo.png" alt="logo">
-                            </a>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetu adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
-                    </div>
-                    <ul class="sidebar__thumd">
-                        <li><a href="#"><img src="images/sidebar-img/1.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/2.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/3.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/4.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/5.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/6.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/7.jpg" alt="sidebar images"></a></li>
-                        <li><a href="#"><img src="images/sidebar-img/8.jpg" alt="sidebar images"></a></li>
-                    </ul>
-                    <div class="offset__widget">
-                        <div class="offset__single">
-                            <h4 class="offset__title">Language</h4>
-                            <ul>
-                                <li><a href="#"> Engish </a></li>
-                                <li><a href="#"> French </a></li>
-                                <li><a href="#"> German </a></li>
-                            </ul>
-                        </div>
-                        <div class="offset__single">
-                            <h4 class="offset__title">Currencies</h4>
-                            <ul>
-                                <li><a href="#"> USD : Dollar </a></li>
-                                <li><a href="#"> EUR : Euro </a></li>
-                                <li><a href="#"> POU : Pound </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="offset__sosial__share">
-                        <h4 class="offset__title">Follow Us On Social</h4>
-                        <ul class="off__soaial__link">
-                            <li><a class="bg--twitter" href="#"  title="Twitter"><i class="zmdi zmdi-twitter"></i></a></li>
-                            
-                            <li><a class="bg--instagram" href="#" title="Instagram"><i class="zmdi zmdi-instagram"></i></a></li>
-
-                            <li><a class="bg--facebook" href="#" title="Facebook"><i class="zmdi zmdi-facebook"></i></a></li>
-
-                            <li><a class="bg--googleplus" href="#" title="Google Plus"><i class="zmdi zmdi-google-plus"></i></a></li>
-
-                            <li><a class="bg--google" href="#" title="Google"><i class="zmdi zmdi-google"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Offset MEnu -->
-            <!-- Start Cart Panel -->
-            <div class="shopping__cart">
-                <div class="shopping__cart__inner">
-                    <div class="offsetmenu__close__btn">
-                        <a href="#"><i class="zmdi zmdi-close"></i></a>
-                    </div>
-                    <div class="shp__cart__wrap">
-                        <div class="shp__single__product">
-                            <div class="shp__pro__thumb">
-                                <a href="#">
-                                    <img src="images/product/sm-img/1.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="shp__pro__details">
-                                <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
-                                <span class="quantity">QTY: 1</span>
-                                <span class="shp__price">$105.00</span>
-                            </div>
-                            <div class="remove__btn">
-                                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                            </div>
-                        </div>
-                        <div class="shp__single__product">
-                            <div class="shp__pro__thumb">
-                                <a href="#">
-                                    <img src="images/product/sm-img/2.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="shp__pro__details">
-                                <h2><a href="product-details.html">Brone Candle</a></h2>
-                                <span class="quantity">QTY: 1</span>
-                                <span class="shp__price">$25.00</span>
-                            </div>
-                            <div class="remove__btn">
-                                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="shoping__total">
-                        <li class="subtotal">Subtotal:</li>
-                        <li class="total__price">$130.00</li>
-                    </ul>
-                    <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Cart Panel -->
-        </div>
-        <!-- End Offset Wrapper -->
-        <!-- Start Bradcaump area -->
-        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/2.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
+            <!-- Header Inner -->
+            <div class="header-inner">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title">Product Details</h2>
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
-                                  <span class="brd-separetor">/</span>
-                                  <span class="breadcrumb-item active">Product Details</span>
-                                </nav>
+                    <div class="cat-nav-head">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="all-category">
+                                    <h3 class="cat-heading">Shop By Category <i class="zmdi zmdi-chevron-down" aria-hidden="true"></i></h3>
+                                    <ul class="main-category">
+                                        <li><a href="#">New Arrivals <i class="zmdi zmdi-chevron-right" aria-hidden="true"></i></a>
+                                            <ul class="sub-category">
+                                                <li><a href="#">accessories</a></li>
+                                                <li><a href="#">best selling</a></li>
+                                                <li><a href="#">top 100 offer</a></li>
+                                                <li><a href="#">sunglass</a></li>
+                                                <li><a href="#">watch</a></li>
+                                                <li><a href="#">man’s product</a></li>
+                                                <li><a href="#">ladies</a></li>
+                                                <li><a href="#">westrn dress</a></li>
+                                                <li><a href="#">denim </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="main-mega"><a href="#">best selling <i class="zmdi zmdi-chevron-right" aria-hidden="true"></i></a>
+                                            <ul class="mega-menu">
+                                                <li class="single-menu">
+                                                    <a href="#" class="title-link">Shop Kid's</a>
+                                                    <div class="image">
+                                                        <img src="https://via.placeholder.com/225x155" alt="#">
+                                                    </div>
+                                                    <div class="inner-link">
+                                                        <a href="#">Kids Toys</a>
+                                                        <a href="#">Kids Travel Car</a>
+                                                        <a href="#">Kids Color Shape</a>
+                                                        <a href="#">Kids Tent</a>
+                                                    </div>
+                                                </li>
+                                                <li class="single-menu">
+                                                    <a href="#" class="title-link">Shop Men's</a>
+                                                    <div class="image">
+                                                        <img src="https://via.placeholder.com/225x155" alt="#">
+                                                    </div>
+                                                    <div class="inner-link">
+                                                        <a href="#">Watch</a>
+                                                        <a href="#">T-shirt</a>
+                                                        <a href="#">Hoodies</a>
+                                                        <a href="#">Formal Pant</a>
+                                                    </div>
+                                                </li>
+                                                <li class="single-menu">
+                                                    <a href="#" class="title-link">Shop Women's</a>
+                                                    <div class="image">
+                                                        <img src="https://via.placeholder.com/225x155" alt="#">
+                                                    </div>
+                                                    <div class="inner-link">
+                                                        <a href="#">Ladies Shirt</a>
+                                                        <a href="#">Ladies Frog</a>
+                                                        <a href="#">Ladies Sun Glass</a>
+                                                        <a href="#">Ladies Watch</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">accessories</a></li>
+                                        <li><a href="#">top 100 offer</a></li>
+                                        <li><a href="#">sunglass</a></li>
+                                        <li><a href="#">watch</a></li>
+                                        <li><a href="#">man’s product</a></li>
+                                        <li><a href="#">ladies</a></li>
+                                        <li><a href="#">westrn dress</a></li>
+                                        <li><a href="#">denim </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-12">
+                                <div class="menu-area">
+                                    <!-- Main Menu -->
+                                    <nav class="navbar navbar-expand-lg">
+                                        <div class="navbar-collapse">   
+                                            <div class="nav-inner"> 
+                                                <ul class="nav main-menu menu navbar-nav">
+                                                        <li class="active"><a href="#">Home</a></li>
+                                                        <li><a href="#">Mega Menu</a></li>
+                                                        <li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
+                                                            <ul class="dropdown">
+                                                                <li><a href="cart.html">categories</a></li>
+                                                                <li><a href="checkout.html">products</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#">Blog<i class="ti-angle-down"></i></a>
+                                                            <ul class="dropdown">
+                                                                <li><a href="blog-single-sidebar.html">Blog Single Sidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#">Account<i class="ti-angle-down"></i></a>
+                                                            <ul class="dropdown">
+                                                                <li><a href="cart.html">Cart</a></li>
+                                                                <li><a href="checkout.html">Checkout</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#">Pages</a></li>                              
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    <!--/ End Main Menu --> 
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2">
+                                <p class="header-callus">Call us: <a href="#"><b>08925297807</b></a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <!--/ End Header Inner -->
+        </header>
+        <!--/ End Header -->
         <!-- End Bradcaump area -->
         <!-- Start Product Details -->
         <section class="htc__product__details pt--120 pb--100 bg__white">
@@ -360,35 +366,19 @@
                                 <div class="portfolio-full-image tab-content">
                                     <div role="tabpanel" class="tab-pane fade in active product-video-position" id="img-tab-1">
                                         <img src="images/product-details/big-img/10.jpg" alt="full-image">
-                                        <div class="product-video">
-                                            <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                                <i class="zmdi zmdi-videocam"></i> View Video
-                                            </a>
-                                        </div>
+                                       
                                     </div>
                                     <div role="tabpanel" class="tab-pane fade product-video-position" id="img-tab-2">
                                         <img src="images/product-details/big-img/12.jpg" alt="full-image">
-                                        <div class="product-video">
-                                            <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                                <i class="zmdi zmdi-videocam"></i> View Video
-                                            </a>
-                                        </div>
+                                        
                                     </div>
                                     <div role="tabpanel" class="tab-pane fade product-video-position" id="img-tab-3">
                                         <img src="images/product-details/big-img/11.jpg" alt="full-image">
-                                        <div class="product-video">
-                                            <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                                <i class="zmdi zmdi-videocam"></i> View Video
-                                            </a>
-                                        </div>
+                                       
                                     </div>
                                     <div role="tabpanel" class="tab-pane fade product-video-position" id="img-tab-4">
                                         <img src="images/product-details/big-img/12.jpg" alt="full-image">
-                                        <div class="product-video">
-                                            <a class="video-popup" href="https://www.youtube.com/watch?v=cDDWvj_q-o8">
-                                                <i class="zmdi zmdi-videocam"></i> View Video
-                                            </a>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -651,18 +641,15 @@
         </section>
         <!-- End Product tab -->
         <!-- Start Footer Area -->
-        <footer class="htc__foooter__area gray-bg">
+        <footer class="htc__foooter__area black-bg mt-4 footer-box" style="position:relative;">
             <div class="container">
+                <div class='box1'></div>
+                <div class="box2"></div>
                 <div class="row">
                     <div class="footer__container clearfix">
                          <!-- Start Single Footer Widget -->
                         <div class="col-md-3 col-lg-3 col-sm-6">
-                            <div class="ft__widget">
-                                <div class="ft__logo">
-                                    <a href="index.html">
-                                        <img src="images/logo/logo.png" alt="footer logo">
-                                    </a>
-                                </div>
+                            <div class="ft__widget">                               
                                 <div class="footer-address">
                                     <ul>
                                         <li>
@@ -762,7 +749,7 @@
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <div class="copyright__inner">
                                 <div class="copyright">
-                                    <p>© 2017 <a href="https://freethemescloud.com/">Free themes Cloud</a>
+                                    <p>© 2017 <a href="#">UItoUX</a>
                                     All Right Reserved.</p>
                                 </div>
                                 <ul class="footer__menu">
@@ -866,18 +853,51 @@
     <!-- END QUICKVIEW PRODUCT -->
     <!-- Placed js at the end of the document so the pages load faster -->
 
+
     <!-- jquery latest version -->
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- Nice Select JS -->
+    <script src="js/nicesellect.js"></script>
     <!-- Bootstrap framework js -->
     <script src="js/bootstrap.min.js"></script>
     <!-- All js plugins included in this file. -->
     <script src="js/plugins.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+
     <!-- Waypoints.min.js. -->
     <script src="js/waypoints.min.js"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+ 
+    $(window).load(function () {
+        $('.goog-te-gadget-icon').hide();
+    });
+    $("#curr").on("change",function() {
+        var curr   = this.value;
+        var prefix = curr=="usd"; // or ["usd","yen",...].indexOf(curr); for more
+        var sign   = curr=="usd"?"$":"€";
+        $(".amt").each(function(){
+            $(this).text(
+                (prefix?sign:"")   +
+                $(this).data(curr) +
+                (prefix?"":sign)
+            );  
+        })
+    }).change();
+    </script>
+
+  
 
 </body>
 
