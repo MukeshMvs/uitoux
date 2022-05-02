@@ -1888,12 +1888,23 @@ body{
     right:0;
     content: "\2B22";
 }
-
+.copyright p, .copyright a{
+    color: #fff !important;
+}
 .htc__foooter__area h2{
     color: #fff;
 }
+.footer-categories li a{
+    color: #fff !important;
+}
+.newsletter__form p{
+    color: #fff !important;
+}
 .htc__foooter__area .footer-address p{
-    color: #fff;
+    color: #fff !important;
+}
+.htc__foooter__area .footer-address a{
+    color: #fff !important;
 }
 /*======================================
    End Shop Home List CSS
@@ -6070,4 +6081,7 @@ a.shipping-calculator-button:hover {
 .single-service{
     display: flex;
     align-items: center;
+}
+.footer__menu a{
+    color: #fff !important;
 }
